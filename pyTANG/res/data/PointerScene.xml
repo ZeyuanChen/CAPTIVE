@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<scene>
+  <Actor id="pointer">
+    <components>
+      <Transform />
+    </components>
+    <children>
+      <Actor>
+        <components>
+          <Mesh src="SmallSphere.obj"/>
+          <Transform scale="2.0 2.0 2.0"/>
+          <Material color="0.4 0.4 0.8"/>
+        </components>
+        <children/>
+      </Actor>
+      <Actor>
+        <components>
+          <Mesh src="TreeEdge_X_4.obj"/>
+          <Transform rotation="0.0 90.0 0.0" scale="8.0 8.0 8.0"/>
+          <Material color="0.4 0.4 0.8"/>
+        </components>
+        <children/>
+      </Actor>
+    </children>
+  </Actor>
+</scene>

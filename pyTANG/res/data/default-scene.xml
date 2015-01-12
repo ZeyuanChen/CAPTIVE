@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<scene>
+  <Actor id="cube">
+    <components>
+      <Cube scale="10.0 10.0 10.0"/>
+    </components>
+    <children>
+      <Actor>
+        <components>
+          <Transform translation="0.0 4.0 0.0" rotation="180.0 0.0 0.0" scale="1.0 1.0 1.0"/>
+        </components>
+        <children>
+          <Actor>
+            <components>
+              <Mesh src="Dragon.obj"/>
+              <Transform translation="0.0 0.0 0.0" rotation="0.0 45.0 0.0" scale="1.0 1.0 1.0"/>
+              <Material color="0.8 0.4 0.4"/>
+            </components>
+            <children/>
+          </Actor>
+        </children>
+      </Actor>
+    </children>
+  </Actor>
+</scene>
